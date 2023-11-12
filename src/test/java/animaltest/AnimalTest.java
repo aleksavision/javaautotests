@@ -52,11 +52,11 @@ public class AnimalTest {
         assertEquals("For Test Box", pluton.boxBox("For Test Box"));
     }
 
-//    @After
-//    public void tearDown() {
-//        // closeWebDriver() не закрывает браузер, если closeBrowser установлен в false
-//        closeWebDriver();
-//    }
+    @After
+    public void tearDown() {
+        // closeWebDriver() не закрывает браузер, если closeBrowser установлен в false
+        closeWebDriver();
+    }
 
 
 }
